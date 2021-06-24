@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="main">
+
+            <header class="head">
+                <p>오늘의 할 일</p>
+            </header>
+            <footer>
+                <section class="input"><input class="inputbox" type="text" placeholder="입력하세요." onkeydown="if (event.keyCode==13){input();}"><button
+                        onclick="input()">클릭</button>
+                </section>
+                <section class="screen">
+                    <ul class="in">
+
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="todolist.js"></script>
+
+</html>
